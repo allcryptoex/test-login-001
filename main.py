@@ -6,7 +6,7 @@ from pathlib import Path
 
 st.set_page_config(
         page_title="test-login-001",
-        page_icon='✔'
+        page_icon='👍✔'
 )
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -30,7 +30,7 @@ class MultiApp:
         # app = st.sidebar(
         with st.sidebar:        
             app = option_menu(
-                menu_title='MWANACHUO ',
+                menu_title='Curtis Speller ',
                 options=['Home','Login','Post','Profile','More'],
                 icons=['house-door-fill','box-arrow-in-right','wechat','person-fill','three-dots'],
                 menu_icon='app-indicator',
