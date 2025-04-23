@@ -17,7 +17,7 @@ st.set_page_config(
 
 
 class MultiApp:
-    # X def __init__(self):
+    def __init__(self):
         self.apps = []
 
     # X def add_app(self, title, func):
