@@ -27,7 +27,7 @@ class MultiApp:
         })
 
     def run():
-        app = st.sidebar(
+        # app = st.sidebar(
         with st.sidebar:        
             app = option_menu(
                 menu_title='Curtis Speller ',
