@@ -9,11 +9,11 @@ st.set_page_config(
         page_icon='✔'
 )
 
-current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-css_file = current_dir / "styles" / "main.css"
+# X current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
+# X css_file = current_dir / "styles" / "main.css"
 
-# with open(css_file) as f:
-    # st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+# X with open(css_file) as f:
+    # X st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
 
 class MultiApp:
