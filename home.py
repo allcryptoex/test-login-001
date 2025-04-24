@@ -9,7 +9,7 @@ def app():
     news1.markdown('''Share news, updates and announcements directly to the community.''')
     news1.markdown(''' MWANACHUO offers a safe space for leaders to engage with their
     students by posting announcements and news''')  
-    news2.image('news.PNG')
+    news2.image('news.png')
     if 'db' not in st.session_state:
         st.session_state.db = ''
 
