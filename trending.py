@@ -35,7 +35,7 @@ def app():
     mid7.write('**Get to know the limitless potentials MWANACHUO brings to the univeristy community.**')
 
     mid4, mid5 = st.columns([3,4])
-    st.video('MWANACHUO.mp4')
+    # st.video('MWANACHUO.mp4')
     st.caption("DISCLAIMER: Photo was taken from twitter acc UDSM ICON")
 
 
