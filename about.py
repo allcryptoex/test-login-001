@@ -2,17 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-try:
-    id1 = pd.read_csv("identity_kpi.csv")
-    if id1.empty:
-        st.warning("The file 'identity_kpi.csv' is empty.")
-    else:
-        st.dataframe(id1)
-except pd.errors.EmptyDataError:
-    st.error("The file 'identity_kpi.csv' is empty or unreadable.")
-except FileNotFoundError:
-    st.error("The file 'identity_kpi.csv' was not found.")
-    
 
 def app():    
     st.header('A :green[STUDY] ON UNIVERSITY INFORMATION OUTLETS')
@@ -26,7 +15,7 @@ def app():
 
     result_container = st.container(border=True)
     with result_container:
-        id1 = pd.read_csv('identity_kpi.csv')
+        id1 = pd.read_csv('willingness_kpi.csv')
         id2 = pd.read_csv('possible_reasons_kpi.csv')
         id3 = pd.read_csv('willingness_kpi.csv')
         st.subheader("**KPI's**")
