@@ -6,7 +6,7 @@ from pathlib import Path
 
 st.set_page_config(
         page_title="test-login-001",
-        page_icon='✔'
+        page_icon='🔒'
 )
 
 # X current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
