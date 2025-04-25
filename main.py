@@ -32,7 +32,7 @@ class MultiApp:
             app = option_menu(
                 menu_title='Curtis Speller ',
                 options=['Home','Login','Post','Profile','More'],
-                icons=['house-door-fill','box-arrow-in-right','wechat','person-fill','three-dots'],
+                icons=['house-door-fill','box-arrow-in-right','person-fill','three-dots'],
                 menu_icon='app-indicator',
                 default_index=1,
                 styles={
