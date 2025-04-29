@@ -9,7 +9,7 @@ def app():
         container1 = st.container(border=True)   
         container1.image('logo.png', width=100)
 
-    
+    # HOME
     st.header(' :green[Getting Started!!]')
     col1, col2 = st.columns([2,3])
     col1.video('simu.mp4')  
