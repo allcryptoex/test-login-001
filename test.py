@@ -80,8 +80,8 @@ def app():
             college = st.text_input('College/School', help='Write your respective college i.e COSS, CoNAS, UDSE')
             category = st.selectbox('Category', student_type, help='Tell us what you identify as, normal student or Leader')
 
-            if category == 'Leader':
-                position = st.text_input(label='*For Leaders Only*', placeholder='Specify your leadership role', help='Leadership role i.e BAGES CR, BAST CR, DARUSO')
+            # X if category == 'Leader':
+            #    X position = st.text_input(label='*For Leaders Only*', placeholder='Specify your leadership role', help='Leadership role i.e BAGES CR, BAST CR, DARUSO')
             
             if st.button(' :green[**Create my account**]', use_container_width=True):
                 user = auth.create_user(email = email, password = password, uid=username, display_name=regnumber)
