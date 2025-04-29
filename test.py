@@ -61,7 +61,7 @@ def app():
     if 'signout' not in st.session_state:
         st.session_state['signout'] = False    
         
-    student_type = ('Student', 'Leader', )
+    student_type = ('Student', 'Instructor', )
         
     
     if  not st.session_state["signedout"]: # only show if the state is False, hence the button has never been clicked
@@ -75,13 +75,13 @@ def app():
         
         if choice == 'Sign up':
             st.subheader('PROFILE INFORMATION')
-            username = st.text_input(label='Username', placeholder="Enter  your unique username", help='please include your position if you are a leader i.e Jackson Temba: BAEST CR, Janet John: DARUSO VP, James June: MT114 Seminar Leader')
+            username = st.text_input(label='Username', placeholder="Enter  your unique username", help='please include your position if you are an instructor i.e TEACHERS, APP DESIGNERS, DATA SCIENTISTS etc.')
             regnumber = st.text_input('Registration number', help='Write your registration number as it shows in your Stident ID')
-            college = st.text_input('College/School', help='Write your respective college i.e COSS, CoNAS, UDSE')
-            category = st.selectbox('Category', student_type, help='Tell us what you identify as, normal student or Leader')
+            school = st.text_input('College/School', help='Write your respective college i.e CHEATHAM, PRESTON, BOON etc.')
+            category = st.selectbox('Category', student_type, help='Tell us what you identify as, normal student or instructor')
 
             if category == 'Instructor':
-                 position = st.text_input(label='*For Instructors Only*', placeholder='Specify your Instructor role', help='Instructor role i.e TEACHERS, APP DESIGNERS, DATA SCIENTISTS')
+                 position = st.text_input(label='*For Instructors Only*', placeholder='Specify your Instructor role', help='Instructor role i.e TEACHERS, APP DESIGNERS, DATA SCIENTISTS etc.')
             
             if st.button(' :green[**Create my account**]', use_container_width=True):
                 user = auth.create_user(email = email, password = password, uid=username, display_name=regnumber)
