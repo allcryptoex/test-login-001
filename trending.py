@@ -12,12 +12,12 @@ def app():
     # # # HOME
     st.header(' :green[Welcome to the Allen Speller!!]')
     col1, col2 = st.columns([2,3])
-    # col1.video('simu.mp4')  
-    col2.markdown(' **The best platform for all campus news and updates. Spreading the word quick and fast across the community** ')
-    col2.markdown('''Mwanachuo makes it easier to transfer information to the receiving end of the students community.''')
-    col2.markdown('''Aunthenticity, Honesty and an Unwavering dedication to our users are our core values MWANACHUO is geared to become the number one news outlet source in the university.''')
+    # X col1.video('simu.mp4')  
+    col2.markdown(' **The spelling practice platform for all Allen's campuses.** ')
+    col2.markdown('''Allen Speller makes it easier to practice the UIL Spelling Competition.''')
+    # X col2.markdown('''Aunthenticity, Honesty and an Unwavering dedication to our users are our core values MWANACHUO is geared to become the number one news outlet source in the university.''')
     
-    col2.write('[Learn More](https://wa.link/p7ke9l)')
+    # X col2.write('[Learn More](https://wa.link/p7ke9l)')
 
 
     with col2:
