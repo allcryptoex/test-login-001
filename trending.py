@@ -9,8 +9,8 @@ def app():
         container1 = st.container(border=True)   
         container1.image('logo.png', width=100)
 
-    
-    st.header(' :green[Getting Started!!]')
+    # # # HOME
+    st.header(' :green[Welcome to the Allen Speller!!]')
     col1, col2 = st.columns([2,3])
     # col1.video('simu.mp4')  
     col2.markdown(' **The best platform for all campus news and updates. Spreading the word quick and fast across the community** ')
