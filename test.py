@@ -77,7 +77,7 @@ def app():
             st.subheader('PROFILE INFORMATION')
             username = st.text_input(label='Username', placeholder="Enter  your unique username", help='please include your position if you are an instructor i.e TEACHERS, APP DESIGNERS, DATA SCIENTISTS etc.')
             regnumber = st.text_input('Registration number', help='Write your registration number as it shows in your Stident ID')
-            school = st.text_input('College/School', help='Write your respective college i.e CHEATHAM, PRESTON, BOON etc.')
+            school = st.text_input('School', help='Write your respective school i.e CHEATHAM, PRESTON, BOON etc.')
             category = st.selectbox('Category', student_type, help='Tell us what you identify as, normal student or instructor')
 
             if category == 'Instructor':
