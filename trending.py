@@ -11,6 +11,14 @@ def app():
 
     st.header(' :green[Getting Started!!]')
 
+    st.write(' ### ')
+    container = st.container(border=True)
+    with container:
+        col1, col2 = st.columns([4,2])
+        col1.subheader(':green[**Subscribe to our newsletter**] ')
+        col1.write('**Get our real time updates**')
+        col2.text_input(label='', placeholder='Your Email')
+        col2.button("Subscribe")
 
     st.write(' ### ')
     st.markdown(''' UIL SPELLER ''')    
