@@ -13,7 +13,7 @@ def app():
     st.header(' :green[Getting Started!!]')
     col1, col2 = st.columns([2,3])
  
-    col2.markdown(' **The best learning platform for UiL Spellers. ** ')
+    col2.markdown(' **The best learning platform for UiL Spellers.** ')
     col2.markdown('''Mwanachuo makes it easier to transfer information to the receiving end of the students community.''')
     col2.markdown('''Aunthenticity, Honesty and an Unwavering dedication to our users are our core values MWANACHUO is geared to become the number one news outlet source in the university.''')
     
