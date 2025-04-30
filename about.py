@@ -13,26 +13,7 @@ def app():
     st.markdown('**A study conducted in the University of Dar es Salaam on information outlets, the results are as follows** ')
     
 
-    result_container = st.container(border=True)
-    with result_container:
-        id1 = pd.read_csv('willingness_kpi.csv')
-        id2 = pd.read_csv('possible_reasons_kpi.csv')
-        id3 = pd.read_csv('willingness_kpi.csv')
-        st.subheader("**KPI's**")
 
-        st.write("(a) *89.6% of respondents were normal students were normal students as opposed to 10% who were leaders.* ")
-        st.dataframe(id1, hide_index=True, use_container_width=True)
-
-        st.markdown(''' (b) *72.4% of respondents said the main reason for getting/sending late, 
-            unreliable or outdated information was due to 'Inconveniences such as bundle and networks
-            while 10.34% said otherwise*''')
-        st.dataframe(id2, hide_index=True, use_container_width=True)
-
-        st.write(" (c) *86% of the respondents agreed to a better solution that would help them alleviate the problems they face towards getting updated and reliable information*")
-        st.dataframe(id3, hide_index=True, use_container_width=True)
-
-
-        st.caption("KPI means KEY PERFOMANCE INDICATOR")
 
 
 
