@@ -11,14 +11,15 @@ def app():
         container1 = st.container(border=True)   
         container1.image('logo.png', width=100)
 
-    st.header(' :green[Let's practice spelling!]')
-    col1, col2 = st.columns([1,2])
- 
-    col1.markdown(' **The learning platform for all UIL spelling participants.** ')
-    col1.markdown('''UIL Speller makes it easier to practice spelling''')
+    st.header(' :green[Getting Started!!]')
+    col1, col2 = st.columns([2,3])
+    col1.video('simu.mp4')  
+    col2.markdown(' **The best platform for all campus news and updates. Spreading the word quick and fast across the community** ')
+    col2.markdown('''Mwanachuo makes it easier to transfer information to the receiving end of the students community.''')
+    col2.markdown('''Aunthenticity, Honesty and an Unwavering dedication to our users are our core values MWANACHUO is geared to become the number one news outlet source in the university.''')
     
     col2.write('[Learn More](https://wa.link/p7ke9l)')
-
+    
     with col2:
         col5, col6 = st.columns(2)
         col5.button(' :green[**Sign Up**]', use_container_width=True)
