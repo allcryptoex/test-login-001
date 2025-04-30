@@ -2,7 +2,7 @@ import streamlit as st
 from firebase_admin import auth
 
 def app():
-    #st.header(' UIL SPELLER!! ')
+    #st.header(' UIL SPELLER ')
     
     header1, header2 = st.columns([0.75,3])
     with header1:
