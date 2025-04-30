@@ -31,7 +31,7 @@ class MultiApp:
         # app = st.sidebar(
         with st.sidebar:        
             app = option_menu(
-                menu_title='ALLEN SPELLER',
+                menu_title='UIL SPELLER',
                 options=['Home','Login','Post','Profile','More'],
                 icons=['house-door-fill','box-arrow-in-right','wechat','person-fill','three-dots'],
                 menu_icon='app-indicator',
