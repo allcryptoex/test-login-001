@@ -5,6 +5,9 @@ from firebase_admin import credentials
 from firebase_admin import auth, exceptions, credentials, initialize_app
 from httpx_oauth.clients.google import GoogleOAuth2
 
+
+# # # LOGIN
+
 cred = credentials.Certificate("mwanachuo2-7faec-firebase-adminsdk-ddavb-0b8a737a43.json")
 try:
     firebase_admin.get_app()
