@@ -10,7 +10,7 @@ def app():
         container1.image('logo.png', width=100)
 
     st.header(' :green[Getting Started!!]')
-    col1, col2 = st.columns([0,1])
+    col1, col2 = st.columns([1,1])
  
     col2.markdown(' **The best platform for all campus news and updates. Spreading the word quick and fast across the community** ')
     col2.markdown('''Mwanachuo makes it easier to transfer information to the receiving end of the students community.''')
