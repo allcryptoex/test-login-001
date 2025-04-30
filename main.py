@@ -3,10 +3,10 @@ from streamlit_option_menu import option_menu
 import home, trending, test, your, about
 from pathlib import Path
 
-# # # SIDEBAR
+# # # SIDEBAR SETTING
 
 st.set_page_config(
-        page_title="test-login-001",
+        page_title="UIL SPELLER",
         page_icon='✔'
 )
 
