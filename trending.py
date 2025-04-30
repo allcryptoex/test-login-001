@@ -30,13 +30,13 @@ def app():
     st.write(' ### ')
     st.write(' ### ')
     mid1, mid2, mid3 = st.columns([4,2,4])
-    mid2.subheader('Explore')
+    mid2.subheader('.')
     mid6, mid7, mid8 = st.columns([0.5,15,0.5])
-    mid7.write('**Get to know the limitless potentials UIL Speller brings to self practice.**')
+    mid7.write('**.**')
 
     mid4, mid5 = st.columns([3,4])
 
-    st.caption("DISCLAIMER: Photo was taken from twitter acc UDSM ICON")
+    st.caption("")
 
 
     st.write(' ### ')
