@@ -24,7 +24,7 @@ class MultiApp:
         # X self.apps.append({
             # X "title": title,
             # X "function": function,
-        })
+        # X })
 
     def run():
         # app = st.sidebar(
