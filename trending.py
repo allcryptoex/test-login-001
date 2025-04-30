@@ -25,20 +25,6 @@ def app():
         col5.button(' :green[**Sign Up**]', use_container_width=True)
         
 
-
-    st.write(' ### ')
-    st.write(' ### ')
-    st.write(' ### ')
-    mid1, mid2, mid3 = st.columns([4,2,4])
-    mid2.subheader('Explore')
-    mid6, mid7, mid8 = st.columns([0.5,15,0.5])
-    mid7.write('**Get to know the limitless potentials MWANACHUO brings to the univeristy community.**')
-
-    mid4, mid5 = st.columns([3,4])
-    # st.video('MWANACHUO.mp4')
-    st.caption("DISCLAIMER: Photo was taken from twitter acc UDSM ICON")
-
-
     st.write(' ### ')
     container = st.container(border=True)
     with container:
