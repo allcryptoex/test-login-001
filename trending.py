@@ -15,7 +15,7 @@ def app():
  
     col2.markdown(' **The self practice platform for UiL Spellers.** ')
     col2.markdown('''UIL Spellers makes it easier to practice spelling.''')
-    col2.markdown('''Let.''')
+    col2.markdown('''Let's get started by signing up or signing in.''')
     
     col2.write('[Learn More](https://wa.link/p7ke9l)')
 
