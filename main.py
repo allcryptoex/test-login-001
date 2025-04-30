@@ -40,7 +40,7 @@ class MultiApp:
                     "container": {"padding": "5!important","background-color":'grey'},
         "icon": {"color": "black", "font-size": "23px"}, 
         "nav-link": {"color":"black","font-size": "20px", "text-align": "left", "margin":"0px", "--hover-color": "grey"},
-        "nav-link-selected": {"background-color": "#03ab21"},}
+        "nav-link-selected": {"background-color": "#32ab21"},}
                 
                 )
 
