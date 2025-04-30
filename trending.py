@@ -13,8 +13,7 @@ def app():
 
 
     st.write(' ### ')
-    st.markdown(''' MWANACHUO as an information portal facilitates the flow of information from top to bottom
-    guarranteeing safest and fastest information flow, auntheniticity and reliability on both ends. ''')    
+    st.markdown(''' UIL SPELLER ''')    
 
     st.write(' ### ')
     col1, col2, col3, col4 = st.columns([2,6,2,2])
