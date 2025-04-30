@@ -20,7 +20,7 @@ class MultiApp:
     def __init__(self):
         self.apps = []
 
-    # X def add_app(self, title, func):
+    def add_app(self, title, func):
         self.apps.append({
             "title": title,
             "function": function,
