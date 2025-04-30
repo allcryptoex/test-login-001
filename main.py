@@ -31,7 +31,7 @@ class MultiApp:
         # app = st.sidebar(
         with st.sidebar:        
             app = option_menu(
-                menu_title='MWANACHUO ',
+                menu_title='ALLEN SPELLER',
                 options=['Home','Login','Post','Profile','More'],
                 icons=['house-door-fill','box-arrow-in-right','wechat','person-fill','three-dots'],
                 menu_icon='app-indicator',
@@ -40,7 +40,7 @@ class MultiApp:
                     "container": {"padding": "5!important","background-color":'grey'},
         "icon": {"color": "black", "font-size": "23px"}, 
         "nav-link": {"color":"black","font-size": "20px", "text-align": "left", "margin":"0px", "--hover-color": "grey"},
-        "nav-link-selected": {"background-color": "#32ab21"},}
+        "nav-link-selected": {"background-color": "#02ab21"},}
                 
                 )
 
