@@ -59,6 +59,8 @@ class MultiApp:
           
              
     run()            
+
+
          
 # Function to check user inactivity and automatically log out after 15 minutes
 def check_user_inactivity():
