@@ -2,7 +2,7 @@ import streamlit as st
 from firebase_admin import auth
 
 def app():
-    #st.header(' MWANACHUO PLATFORM!! ')
+    #st.header(' UIL SPELLER!! ')
     
     header1, header2 = st.columns([0.75,3])
     with header1:
@@ -10,7 +10,7 @@ def app():
         container1.image('logo.png', width=100)
 
     
-    st.header(' :green[How to Start Self Practice!]')
+    st.header(' :green[How to Start Self Practice?]')
     col1, col2 = st.columns([1,2])
  
     col1.markdown(' **The self practice platform for UiL Spellers.** ')
