@@ -2,7 +2,7 @@ import streamlit as st
 from firebase_admin import auth
 
 def app():
-    #st.header(' MWANACHUO PLATFORM!! ')
+    #st.header(' UIL SPELLER!! ')
     
     header1, header2 = st.columns([0.75,3])
     with header1:
@@ -14,7 +14,7 @@ def app():
 
     st.write(' ### ')
     col1, col2, col3, col4 = st.columns([2,6,2,2])
-    col1.caption('mwanachuo.app')
+    col1.caption('uilspeller.app')
     col3.caption(' [Privacy Policy]()')
     col4.caption( ' [Terms of Use]() ')
 
