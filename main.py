@@ -9,22 +9,10 @@ st.set_page_config(
         page_icon='🔒'
 )
 
-# X current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-# X css_file = current_dir / "styles" / "main.css"
-
-# X with open(css_file) as f:
-    # X st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
-
 
 class MultiApp:
     def __init__(self):
         self.apps = []
-
-    # X def add_app(self, title, func):
-        # X self.apps.append({
-            # X "title": title,
-            # X "function": function,
-        # X })
 
     def run():
         # app = st.sidebar(
@@ -36,7 +24,7 @@ class MultiApp:
                 menu_icon='app-indicator',
                 default_index=1,
                 styles={
-                    "container": {"padding": "5!important","background-color":'grey'},
+                    "container": {"padding": "5!important","background-color":'black'},
         "icon": {"color": "black", "font-size": "23px"}, 
         "nav-link": {"color":"black","font-size": "20px", "text-align": "left", "margin":"0px", "--hover-color": "grey"},
         "nav-link-selected": {"background-color": "#02ab21"},}
