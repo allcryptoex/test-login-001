@@ -13,9 +13,9 @@ def app():
     st.header(' :green[Starting Practice!]')
     col1, col2 = st.columns([1,2])
  
-    col2.markdown(' **The self practice platform for UiL Spellers.** ')
-    col2.markdown('''UIL Spellers makes it easier to practice spelling.''')
-    col2.markdown('''Let's get started by signing up or signing in.''')
+    col1.markdown(' **The self practice platform for UiL Spellers.** ')
+    col1.markdown('''UIL Spellers makes it easier to practice spelling.''')
+    col1.markdown('''Let's get started by signing up or signing in.''')
     
     col2.write('[Learn More](https://wa.link/p7ke9l)')
 
