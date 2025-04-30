@@ -18,6 +18,13 @@ def app():
     
     col2.write('[Learn More](https://wa.link/p7ke9l)')
 
+    with col2:
+        col5, col6 = st.columns(2)
+        col5.button(' :green[**Sign Up**]', use_container_width=True)
+
+
+
+    
     
     st.write(' ### ')
     container = st.container(border=True)
