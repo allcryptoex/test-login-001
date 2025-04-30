@@ -15,7 +15,7 @@ def app():
  
     col1.markdown(' **The self practice platform for UiL Spellers.** ')
     col1.markdown('''UIL Spellers makes it easier to practice spelling.''')
-    col1.markdown('''Let's get started by signing up or signing in.''')
+    col1.markdown('''Let's get started by signing up or logging in.''')
     
     col2.write('[Learn More](https://wa.link/p7ke9l)')
 
@@ -32,7 +32,7 @@ def app():
     mid1, mid2, mid3 = st.columns([4,2,4])
     mid2.subheader('Explore')
     mid6, mid7, mid8 = st.columns([0.5,15,0.5])
-    mid7.write('**Get to know the limitless potentials MWANACHUO brings to the univeristy community.**')
+    mid7.write('**Get to know the limitless potentials UIL Speller brings to self practice.**')
 
     mid4, mid5 = st.columns([3,4])
 
@@ -50,8 +50,7 @@ def app():
 
 
     st.write(' ### ')
-    st.markdown(''' MWANACHUO as an information portal facilitates the flow of information from top to bottom
-    guarranteeing safest and fastest information flow, auntheniticity and reliability on both ends. ''')    
+    st.markdown(''' UIL Speller. ''')    
         
 
     st.write(' ### ')
