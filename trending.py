@@ -29,14 +29,14 @@ def app():
     st.write(' ### ')
     st.write(' ### ')
     st.write(' ### ')
-    mid1, mid2, mid3 = st.columns([4,2,4])
-    mid2.subheader('.')
-    mid6, mid7, mid8 = st.columns([0.5,15,0.5])
-    mid7.write('**.**')
+    # X mid1, mid2, mid3 = st.columns([4,2,4])
+    # X mid2.subheader('.')
+    # X mid6, mid7, mid8 = st.columns([0.5,15,0.5])
+    # X mid7.write('**.**')
 
-    mid4, mid5 = st.columns([3,4])
+    # X mid4, mid5 = st.columns([3,4])
 
-    st.caption("")
+    # X st.caption("")
 
 
     st.write(' ### ')
