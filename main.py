@@ -60,7 +60,22 @@ class MultiApp:
              
     run()            
 
+st.write("🔒 Please log in to continue.")
 
+username = st.text_input("Username")
+password = st.text_input("Password", type="password")
+
+if st.button("Log in", type="primary"):
+    if username == "uiltest" and password == "curtistest":
+        st.session_state.logged_in = True
+        st.success("✔️Logged in successfully!")
+        sleep(0.5)
+        
+        # Instead of using st.switch_page(), use st.experimental_rerun() to reload the page.
+        st.switch_page("pages/page1.py") # Store the next page in session state
+        # st.experimental_rerun()  # Trigger a rerun to go to the new page
+    else:
+        st.error("❌Incorrect username or password")
          
 # Function to check user inactivity and automatically log out after 15 minutes
 def check_user_inactivity():
