@@ -58,7 +58,7 @@ def app():
     st.write(' ### ')
     st.write(' ### ')
     col1, col2, col3, col4 = st.columns([2,6,2,2])
-    col1.caption('mwanachuo.app')
+    # X col1.caption('mwanachuo.app')
     col3.caption(' [Privacy Policy]()')
     col4.caption( ' [Terms of Use]() ')
 
