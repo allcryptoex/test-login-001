@@ -50,7 +50,7 @@ def app():
 
 
     st.write(' ### ')
-    st.markdown(''' UIL Speller. ''')    
+    # X st.markdown(''' UIL Speller. ''')    
         
 
     st.write(' ### ')
