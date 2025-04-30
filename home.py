@@ -1,14 +1,15 @@
 import streamlit as st
 from firebase_admin import firestore
 
+# # # POST
 
 def app():
     cols4, cols5, cols6 = st.columns([3,8,3])
     cols5.subheader('NEWS AND ANNOUNCEMENTS')
     news1, news2 = st.columns([2,3])
-    news1.markdown('''Share news, updates and announcements directly to the community.''')
-    news1.markdown(''' MWANACHUO offers a safe space for leaders to engage with their
-    students by posting announcements and news''')  
+    news1.markdown('''Share news, updates and announcements.''')
+    news1.markdown(''' UIL Speller offers a platform for instructors to engage with their
+    students by posting announcements, updates and news''')  
     news2.image('news.png')
     if 'db' not in st.session_state:
         st.session_state.db = ''
@@ -22,7 +23,7 @@ def app():
         ph = 'Login to be able to post!!'
     else:
         ph='Post your thought'   
-    st.subheader(' :green[+ RESERVED FOR LEADERS ONLY +] ', help='includes CRs, DARUSO Leaders etc')       
+    st.subheader(' :green[+ RESERVED FOR INSTRCTORS ONLY +] ', help='includes CRs, DARUSO Leaders etc')       
     post=st.text_area(label=' :orange[>>>] ', placeholder=ph, height=None, max_chars=500)
 
 
@@ -135,3 +136,5 @@ def app():
     col1.caption('SPELLING.app')
     col3.caption(' [Privacy Policy]()')
     col4.caption( ' [Terms of Use]() ')    
+
+
