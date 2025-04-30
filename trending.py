@@ -10,7 +10,7 @@ def app():
         container1.image('logo.png', width=100)
 
     
-    st.header(' :green[Starting started!!]')
+    st.header(' :green[Starting Practice!!]')
     col1, col2 = st.columns([2,3])
  
     col2.markdown(' **The best practice platform for UiL Spellers.** ')
