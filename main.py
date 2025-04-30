@@ -1,26 +1,38 @@
-nimport streamlit as st
+import streamlit as st
 from streamlit_option_menu import option_menu
 import home, trending, test, your, about
 from pathlib import Path
 
 
 st.set_page_config(
-        page_title="test-login-001",
-        page_icon='🔒'
+        page_title="MWANACHUO",
+        page_icon='✔'
 )
+
+current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
+css_file = current_dir / "styles" / "main.css"
+
+with open(css_file) as f:
+    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
 
 class MultiApp:
     def __init__(self):
         self.apps = []
 
+    def add_app(self, title, func):
+        self.apps.append({
+            "title": title,
+            "function": function,
+        })
+
     def run():
         # app = st.sidebar(
         with st.sidebar:        
             app = option_menu(
-                menu_title='Curtis Speller ',
+                menu_title='MWANACHUO ',
                 options=['Home','Login','Post','Profile','More'],
-                icons=['house-door-fill','box-arrow-in-right','person-fill','three-dots'],
+                icons=['house-door-fill','box-arrow-in-right','wechat','person-fill','three-dots'],
                 menu_icon='app-indicator',
                 default_index=1,
                 styles={
