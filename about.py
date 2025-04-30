@@ -15,36 +15,7 @@ def app():
 
 
 
-
-
-
-
-    st.subheader('SHORT SUMMARY REPORT')
-    result_container1 = st.container(border=True)
-    with result_container1:  
-        result1,  result2 = st.columns(2)
-        result1.markdown(''' According to the research conducted about 72.4% agreed to incoveniences like
-            bundle and network issues being the major problem hindering their access to up-to-date information while 27.6% distributed almost equally among
-            "information sent late", "post being less detailed", and "sheer lazyness to make regular check ups for information".
-            With Mwanachuo app student will be able to solve the problem of late information, and having to deal with less-detailed post.
-            all the informations and updates from Mwanachuo app are authentic and true to the university community        
-            ''')
-        result2.image('5.PNG', caption='A pie chart displaying research findings on the reasons as to why university student encounter unauthentic/unreliable information')
-        st.write( "___ ")
-
-    result_container2 = st.container(border=True)
-    with result_container1:
-        result3, result4 = st.columns(2)
-        result3.markdown(''' About 41% both normal students and leaders agreed on the fact that information credibility, 
-            reliability and authenticity means to your socio-academic well-being while on campus
-            and that it matters when the information outlets thrive to uphold truth, and panctuality, a good information discharge from top to bottom ''')
-        result3.markdown('''This means that students relly on sending/receiving information in their run-of-the-mill day-to-day university life''')
-        result4.image('7.PNG', caption='A histogram showing how much quality information and how and when they get the information means to students socio-academic well life on campus  ')
-
-
-
-
-
+ 
     st.write(' ### ')
     st.write(' ### ')
 
