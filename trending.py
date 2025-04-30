@@ -13,9 +13,9 @@ def app():
     st.header(' :green[Starting Practice!]')
     col1, col2 = st.columns([2,3])
  
-    col2.markdown(' **The best practice platform for UiL Spellers.** ')
-    col2.markdown('''Mwanachuo makes it easier to transfer information to the receiving end of the students community.''')
-    col2.markdown('''Aunthenticity, Honesty and an Unwavering dedication to our users are our core values MWANACHUO is geared to become the number one news outlet source in the university.''')
+    col2.markdown(' **The self practice platform for UiL Spellers.** ')
+    col2.markdown('''UIL Spellers makes it easier to practice spelling.''')
+    col2.markdown('''Let.''')
     
     col2.write('[Learn More](https://wa.link/p7ke9l)')
 
