@@ -23,22 +23,7 @@ def app():
     with col2:
         col5, col6 = st.columns(2)
         col5.button(' :green[**Sign Up**]', use_container_width=True)
-        
-
-    st.write(' ### ')
-    container = st.container(border=True)
-    with container:
-        col1, col2 = st.columns([4,2])
-        col1.subheader(':green[**Subscribe to our newsletter**] ')
-        col1.write('**Get our real time updates**')
-        col2.text_input(label='', placeholder='Your Email')
-        col2.button("Subscribe")
-
-
-    st.write(' ### ')
-    st.markdown(''' MWANACHUO as an information portal facilitates the flow of information from top to bottom
-    guarranteeing safest and fastest information flow, auntheniticity and reliability on both ends. ''')    
-        
+    
 
     st.write(' ### ')
     st.write(' ### ')
