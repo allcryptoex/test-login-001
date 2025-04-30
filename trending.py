@@ -13,7 +13,7 @@ def app():
     st.header(' :green[How to Start Self Practice?]')
     col1, col2 = st.columns([1,2])
  
-    col1.markdown(' **The self practice platform for UiL Spellers.** ')
+    col1.markdown(' **The self practice platform for UiL spelling participants.** ')
     col1.markdown('''UIL Spellers makes it easier to practice spelling.''')
     col1.markdown('''Let's get started by signing up or logging in.''')
     
